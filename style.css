@@ -1,0 +1,27 @@
+body{
+background: url("Ymx59h.png");
+background-size:cover ;
+background-repeat:no-repeat;
+background-position: center;
+
+}
+
+#camera{
+    height: 450px;
+    width: 450px;
+    border-color: black;
+    border-style: solid;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0%{box-shadow:1px 1px 38px red;}
+    31%{box-shadow:1px 1px 38px yellow;}
+    49%{box-shadow:1px 1px 38px blue;}
+    77%{box-shadow:1px 1px 38px violet;}
+}
